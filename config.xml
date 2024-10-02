@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="com.yourcompany.usbplayer" version="1.0.0">
+    <name>USB Video Player</name>
+    <description>USB video player app for Hisense Vidaa OS</description>
+    <author>Your Name</author>
+    <content src="index.html" />
+    <preference name="fullscreen" value="true" />
+</widget>

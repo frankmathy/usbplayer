@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USB Video Player</title>
+    <style>
+      body {
+        background-color: #000;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+      video {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+      }
+      #fileList {
+        margin: 20px 0;
+        list-style: none;
+        padding: 0;
+      }
+      #fileList li {
+        padding: 10px;
+        cursor: pointer;
+        background-color: #444;
+        margin-bottom: 5px;
+      }
+      #fileList li:hover {
+        background-color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>USB Video Player</h1>
+    <video id="videoPlayer" controls></video>
+    <h2>Select a video from the USB drive:</h2>
+    <ul id="fileList"></ul>
+    <script src="app.js"></script>
+  </body>
+</html>
